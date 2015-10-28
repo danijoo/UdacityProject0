@@ -1,62 +1,69 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="48dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textStyle="bold"
-        android:text="@string/header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:onClick="onClick"
-        android:id="@+id/bt1"
-        android:layout_width="250dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bt1"/>
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".MainActivity">
 
-    <Button
-        android:onClick="onClick"
-        android:id="@+id/bt2"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/bt2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/header"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
 
-    <Button
-        android:onClick="onClick"
-        android:id="@+id/bt3"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/bt3"/>
+        <Button
+            android:id="btSpotifyStreamer"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/bt1" />
 
-    <Button
-        android:onClick="onClick"
-        android:id="@+id/bt4"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/bt4"/>
+        <Button
+            android:id="@+id/btScoresApp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/bt2" />
 
-    <Button
-        android:onClick="onClick"
-        android:id="@+id/bt5"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/bt5"/>
+        <Button
+            android:id="@+id/btLibraryApp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/bt3" />
 
-    <Button
-        android:onClick="onClick"
-        android:id="@+id/bt6"
-        style="@style/RedButtonStyle"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:text="@string/bt6"/>
-</LinearLayout>
+        <Button
+            android:id="@+id/btBuildItBigger"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/bt4" />
+
+        <Button
+            android:id="@+id/btXYZReader"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/bt5" />
+
+        <Button
+            android:id="@+id/btCapstone"
+            style="@style/RedButtonStyle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/bt6" />
+    </LinearLayout>
+</ScrollView>
