@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/OrangeButtonStyle</item>
+    </style>
+
+    <style name="OrangeButtonStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/orange_button_style</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/red_button_style</item>
+    </style>
+
+</resources>
