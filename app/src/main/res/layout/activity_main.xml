@@ -13,38 +13,50 @@
         android:layout_marginBottom="48dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold"
-        android:text="@string/activity_main_button_title"
+        android:text="@string/header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <Button
+        android:onClick="onClick"
+        android:id="@+id/bt1"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/activity_main_bt1"/>
+        android:text="@string/bt1"/>
 
     <Button
+        android:onClick="onClick"
+        android:id="@+id/bt2"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/activity_main_bt2"/>
+        android:text="@string/bt2"/>
 
     <Button
+        android:onClick="onClick"
+        android:id="@+id/bt3"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/activity_main_bt3"/>
+        android:text="@string/bt3"/>
 
     <Button
+        android:onClick="onClick"
+        android:id="@+id/bt4"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/activity_main_bt4"/>
+        android:text="@string/bt4"/>
 
     <Button
+        android:onClick="onClick"
+        android:id="@+id/bt5"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/activity_main_bt5"/>
+        android:text="@string/bt5"/>
 
     <Button
+        android:onClick="onClick"
+        android:id="@+id/bt6"
         style="@style/RedButtonStyle"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="@string/activity_main_bt6"/>
+        android:text="@string/bt6"/>
 </LinearLayout>
